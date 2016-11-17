@@ -445,7 +445,7 @@ del {
 /*业务内容end*/
 /*案例展示标题start*/
 .anlitt {
-	margin:40px auto;
+	margin:120px auto;
 	background:#fff;
 	height:100px;
 	text-align:center;
@@ -455,7 +455,7 @@ del {
 	padding-top:15px;
 }
 .anlitt .title {
-	margin:0px auto;
+	margin:0px 670px 40px 670px;
 	width:320px;
 	}
 .anlitt .title a {
@@ -595,7 +595,7 @@ del {
 
 .hnewstt2 {
     margin:40px auto;
-	padding-top:50px;
+
 	background:#fff;
 	width:980px;
 	height:100px;
@@ -606,7 +606,7 @@ del {
 	padding-top:15px;
 }
 .hnewstt2 .title {
-	margin:0px auto;
+	margin:0px 200px;
 	width:320px;
 	font-family:"Times New Roman", Times, serif;
 	font-size:48px;
@@ -1618,6 +1618,7 @@ del {
 .anlipd .dh {
 	width:250px;
 	margin-left:65px;
+	margin-top:10px;
 
 }
 .anlipd .dh ul {
@@ -1625,16 +1626,16 @@ del {
 }
 .anlipd .dh ul li {
 	width:105px;
-	height:53px;
+	height:33px;
 	text-align:right;
-	line-height:60px;
+	line-height:33px;
 	border-bottom:1px solid #ccc;
 	background:url(../images/artilist.png) no-repeat;
 }
 .anlipd .dh ul li a {
 	font-family:"\5FAE\8F6F\96C5\9ED1", \9ED1\4F53;
 	color:#000;
-	font-size:18px;
+	font-size:14px;
 	display:block;
 	padding-right:5px;
 }
@@ -1645,7 +1646,7 @@ del {
 	width:730px;
 	margin-left:80px;
 	float:right;
-	margin-top:-270px;
+	margin-top:-100px;
 	text-align:left;
 }
 
@@ -2251,7 +2252,7 @@ _top:expression(eval(document.documentElement.scrollTop+document.documentElement
 #lmleft .dh {
 	width:105px;
 	margin-left:65px;
-
+    margin-top:10px;
 }
 #lmleft .dh ul {
 	width:105px;
