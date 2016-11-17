@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>奎创科技</title>
+<LINK rel="stylesheet" type="text/css" href="/ecms/css/default2.css">
+<LINK rel="stylesheet" type="text/css" href="/ecms/css/lanrenzhijia.css">
+<link href="/ecms/css/home.css" rel="stylesheet" />
+</head>
+<body>
+<div id=wrap>
+<div id=header>
+    <div class=hd_top>
+        <div class=hd_top_lt>
+        <img src="/ecms/images/logo.jpg"/>
+        </div>
+        <div class=hd_top_ri>
+           <div class=top_ri_top>
+           <img src = "/ecms/images/top_ri_top.jpg"/>
+           </div>
+           <div class=top_ri_bottom>
+             <form action="/ecms/e/search/index.php" name="formsearch" method="post">
+            <input type="hidden" name="show" value="title" />
+            <input name="keyboard" id="keyword" value="search" onfocus="this.value='';"  type="text" class="input_tx" />
+            <input type="submit" value="" name="Submit" id="SubmitAll" style="width:40px">
+            </form>
+           </div>
+        </div>
+    </div>
+     <div class=nav>
+    <ul class="nav_list">
+         <li class="drop-menu-effect"><a href="/ecms">首页</a></li>
+         
+
+  
+<li class="drop-menu-effect"><a href="/ecms/guanyukuichuang" title="关于奎创" target="_self" >关于奎创</a>
+<ul class="submenu">
+<li><a href="/ecms/guanyukuichuang/gongsijianjie" title="公司简介" target="_self" >公司简介</a></li>
+<li><a href="/ecms/guanyukuichuang/gongsilicheng" title="公司历程" target="_self" >公司历程</a></li>
+<li><a href="/ecms/guanyukuichuang/qiyewenhua" title="企业文化" target="_self" >企业文化</a></li>
+<li><a href="/ecms/guanyukuichuang/rongyuzizhi" title="荣誉资质" target="_self" >荣誉资质</a></li>
+<li><a href="/ecms/guanyukuichuang/yuangongfengcai" title="员工风采" target="_self" >员工风采</a></li>
+</ul>
+</li>
+
+
+<li class="drop-menu-effect"><a href="/ecms/xinwenzhongxin" title="新闻中心" target="_self" >新闻中心</a>
+<ul class="submenu">
+<li><a href="/ecms/xinwenzhongxin/gongsixinwen" title="公司新闻" target="_self" >公司新闻</a></li>
+<li><a href="/ecms/xinwenzhongxin/xingyezixun" title="行业资讯" target="_self" >行业资讯</a></li>
+<li><a href="/ecms/xinwenzhongxin/meitibaodao" title="媒体报道" target="_self" >媒体报道</a></li>
+</ul>
+</li>
+
+
+<li class="drop-menu-effect"><a href="/ecms/zhuyingyewu" title="主营业务" target="_self" >主营业务</a>
+<ul class="submenu">
+<li><a href="/ecms/zhuyingyewu/product1" title="产品中心1" target="_self" >产品中心1</a></li>
+<li><a href="/ecms/zhuyingyewu/business1" title="主营业务1" target="_self" >主营业务1</a></li>
+<li><a href="/ecms/zhuyingyewu/business2" title="主营业务2" target="_self" >主营业务2</a></li>
+</ul>
+</li>
+
+
+<li class="drop-menu-effect"><a href="/ecms/chanpinzhongxin" title="产品中心" target="_self" >产品中心</a>
+<ul class="submenu">
+<li><a href="/ecms/chanpinzhongxin/products2" title="产品中心2" target="_self" >产品中心2</a></li>
+<li><a href="/ecms/chanpinzhongxin/products3" title="产品中心3" target="_self" >产品中心3</a></li>
+<li><a href="/ecms/chanpinzhongxin/product4" title="产品中心4" target="_self" >产品中心4</a></li>
+</ul>
+</li>
+
+
+<li class="drop-menu-effect"><a href="/ecms/chenggonganli" title="成功案例" target="_self" >成功案例</a>
+<ul class="submenu">
+<li><a href="/ecms/chenggonganli/information" title="信息集成2" target="_self" >信息集成2</a></li>
+<li><a href="/ecms/chenggonganli/jiankongxitong" title="监控系统" target="_self" >监控系统</a></li>
+<li><a href="/ecms/chenggonganli/xinxijicheng" title="信息集成" target="_self" >信息集成</a></li>
+</ul>
+</li>
+
+
+<li class="drop-menu-effect"><a href="/ecms/lianxiwomen" title="联系我们" target="_self" >联系我们</a>
+<ul class="submenu">
+<li><a href="/ecms/lianxiwomen/lianxifangshi" title="联系方式" target="_self" >联系方式</a></li>
+<li><a href="/ecms/lianxiwomen/rencaizhaopin" title="人才招聘" target="_self" >人才招聘</a></li>
+</ul>
+</li>
+
+   
+    </ul>
+  </div>
+  </div>
+<script src="/ecms/js/jquery.min.js"></script>
+<script>
+function dropMenu(obj){
+		$(obj).each(function(){
+			var theSpan = $(this);
+			var theMenu = theSpan.find(".submenu");
+			var tarHeight = theMenu.height();
+			theMenu.css({height:0,opacity:0});
+			
+			var t1;
+			
+			function expand() {
+				clearTimeout(t1);
+				theSpan.find('a').addClass("selected");
+				theMenu.stop().show().animate({height:tarHeight,opacity:1},200);
+			}
+			
+			function collapse() {
+				clearTimeout(t1);
+				t1 = setTimeout(function(){
+					theSpan.find('a').removeClass("selected");
+					theMenu.stop().animate({height:0,opacity:0},200,function(){
+						$(this).css({display:"none"});
+					});
+				}, 250);
+			}
+			
+			theSpan.hover(expand, collapse);
+			theMenu.hover(expand, collapse);
+		});
+	}
+
+$(document).ready(function(){
+	
+	dropMenu(".drop-menu-effect");
+
+});
+</script>
+<div class="jjfadatu">
+  <div class="tu"><img src="/ecms/images/lxwm.jpg" border="0"/></div>
+</div>
+<div class="hnewstt">
+     <div class="title"><a href="ecms/lianxiwomen/" title="lianxiwomen"><img src="/ecms/images/aboutt.png"></a></div>
+  
+</div>
+<div class="clear"></div>
+<!-- nr开始--->
+<div id="nr"> 
+  
+  <!-- nrleft开始--->
+  <div id="nrleft">
+    <div class="aboutus">
+      <p>联系方式：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 广东省汕头市潮阳区府东庄2幢902</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p> 
+      </div>
+    <div class="blank20"></div>
+  </div>
+  <!-- nrleft结束---> 
+  
+  <!-- nrright开始--->
+  <div id="nrright">
+    <div class="dh">
+     <ul>
+                 <li><a href="/ecms/lianxiwomen/lianxifangshi/">联系方式</a></li>
+<li><a href="/ecms/lianxiwomen/rencaizhaopin/">人才招聘</a></li>
+          </ul>
+    </div>
+  </div>
+  
+  <!-- nrright结束---> 
+  
+</div>
+</div>
+<!-- nr结束---> 
+<!-- 左右div高度对齐---> 
+
+<!-- 左右div高度对齐--->
+<div class="clear blank20"></div>
+<!-- 页脚 -->
+<div id =footer>
+<div class=footer_main>
+      <ul>
+        <li>
+           <dl>
+               <dt>
+                 <a href="/ecms/guanyukuichuang">关于奎创</a>
+               </dt>
+               <dd>
+                 <a href="/ecms/guanyukuichuang/gongsijianjie">公司简介</a>
+               </dd>
+               <dd>
+               <a href="/ecms/guanyukuichuang/gongsilicheng">公司历程</a>
+               </dd>
+               <dd>
+               <a href="/ecms/guanyukuichuang/qiyewenhua">企业文化</a>
+               </dd>
+               <dd>
+               <a href="/ecms/guanyukuichuang/rongyuzizhi">荣誉资质</a>
+               </dd>
+               <dd>
+               <a href="/ecms/guanyukuichuang/yuangongfengcai">员工风采</a>
+               </dd>
+           </dl>
+           
+        </li>
+        <li>
+         <dl>
+               <dt>
+                 <a href="/ecms/xinwenzhongxin">新闻中心</a>
+               </dt>
+               <dd>
+                 <a href="/ecms/xinwenzhongxin/gongsixinwen">公司新闻</a>
+               </dd>
+               <dd>
+               <a href="/ecms/xinwenzhongxin/xingyezixun">行业资讯</a>
+               </dd>
+               <dd>
+               <a href="/ecms/xinwenzhongxin/meitibaodao">媒体报道</a>
+               </dd>
+
+           </dl>
+        </li>
+        <li>
+           <dl>
+               <dt>
+                 <a href="/ecms/lianxiwomen">联系我们</a>
+               </dt>
+               <dd>
+                 <a href="/ecms/lianxiwomen/lianxifangshi">联系方式</a>
+               </dd>
+               <dd>
+               <a href="/ecms/lianxiwomen/rencaizhaopin">人才招聘</a>
+               </dd>
+               
+               </dd>
+           </dl>
+        </li>
+      </ul>
+      <div class="web">
+        <img src="/ecms/images/qr.jpg"/>
+      </div>
+   </div>
+</div>
+<div id =end>
+      <li class="end-title"><a href="/ecms">Copyright@广东奎创科技发展有限公司</a><a href="/ecms">&nbsp;www.kuic.com.cn</a><a href="/ecms">&nbsp;粤ICP备11013686号</a></li>
+</div>
+</div>
+</body>
+</html>

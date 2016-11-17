@@ -1,0 +1,1 @@
+document.write("<li><a href=\"/ecms/xinwenzhongxin/gongsixinwen/2016-10-05/19.html\" title=\"公司新闻1\">公司新闻1</a></li>");

@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* 懒人之家 www.lanrenzhijia.com */
+*{ margin:0; padding:0; }
+body{ font-family:"宋体"; color:#000; font-size:14px; text-align:left; }
+ul, li{ list-style:none; }
+img{ border:none; }
+a{ color:#fff; text-decoration:none; }
+a:hover{ text-decoration:underline; color:#000; }
+.nav{ position:relative; width:auto; height:35px; z-index:9999; background:url(../images/nav_bg.jpg) repeat-x 0px 0px; margin-top:5px }
+.nav .nav_list{ margin-left:530px; }
+.nav li{ float:left; height:35px; width:105px; line-height:35px; position:relative; padding-left:20px }
+.nav li:hover{ background:url(../images/li4.png) repeat-y 0px 0px; }
+.nav li.last{ background:none; }
+.nav li a{ float:left; display:block; width:82px; height:35px; text-align:center; line-height:35px; background:url(../images/nav_line.jpg) no-repeat left center; }
+.nav li a:hover{ text-decoration:none; }
+.nav li a span{ float:left; display:block; width:82px; height:35px; line-height:35px; cursor:pointer; font-family:"Microsoft YaHei"; text-align:center; color:#fff; font-size:13px; }
+.nav li a.selected{ color:#fff; }
+.nav li a.selected2{ color:#fff; }
+.nav li.selected .submenu{ display:block; }
+.nav li .submenu{
+display:none;
+padding:0px;
+position:absolute;
+top:35px;
+
+left:0px; background:url(../images/li4.png) repeat-y 0px 0px }
+.nav li .submenu{
+width:125px;
+
+z-index:9999;
+}
+.nav li .submenu li{
+float:left;
+padding:0;
+background:none;
+height:34px;
+
+}
+.nav li .submenu li a{
+display:block;
+float:none;
+font-family:"Microsoft YaHei";
+height:34px;
+line-height:34px;
+background:none;
+color:#fff;
+text-align:center;
+width:125px;
+border-bottom:1px solid rgba(255, 255, 255, 0.3) ;
+}
+.nav li .submenu li a:hover{
+font-weight:normal;
+color:#fff;
+text-decoration:none;
+}
+/* 懒人之家 www.lanrenzhijia.com */

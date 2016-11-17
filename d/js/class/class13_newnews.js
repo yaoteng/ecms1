@@ -1,0 +1,1 @@
+document.write("<li><a href=\"/ecms/xinwenzhongxin/xingyezixun/2016-10-05/23.html\" title=\"行业资讯3\">行业资讯3</a></li><li><a href=\"/ecms/xinwenzhongxin/xingyezixun/2016-10-05/20.html\" title=\"行业资讯1\">行业资讯1</a></li>");
