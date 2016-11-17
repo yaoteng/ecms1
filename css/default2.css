@@ -26,7 +26,7 @@ A:hover {
 #wrap {
 	
 	width:1920px;
-	height:2914px;
+	height:auto;
 }
 #header {
 	 WIDTH: auto; HEIGHT: 157px
@@ -175,10 +175,6 @@ A:hover {
 		 
 #footer{
 	width:1920px;height:234px;
-	position:absolute;
-	left:0px;
-	top:2632px;
-	bottom:39px;
 	background:url(../images/footer.png) no-repeat 0px 0px
 	}
 
@@ -186,7 +182,7 @@ A:hover {
 	
 	width:710px;
 	height:174px;
-	padding:35px 619px 33px 593px}
+	padding:35px 619px 21px 593px}
 .footer_main .web{
 	width:119px;
 	height:119px;
@@ -219,14 +215,10 @@ A:hover {
 	}
 #end{
 	width:1920px;height:39px;
-	position:absolute;
-	left:0px;
-	top:2865px;
-	bottom:0px;
 	background:url(../images/end2.png) no-repeat 0px 0px
 	}
 #end .end-title{
-	margin-top:10px;
+	padding-top:10px;
 	height:25px;
 	line-height:15px;
 	list-style-type:none;

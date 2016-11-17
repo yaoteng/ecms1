@@ -592,6 +592,38 @@ del {
 	font-size:18px;
 	color:#a1a1a1;
 }
+
+.hnewstt2 {
+    margin:40px auto;
+	padding-top:50px;
+	background:#fff;
+	width:980px;
+	height:100px;
+	text-align:center;
+}
+.hnewstt2 .xiangxia {
+	margin:0px auto;
+	padding-top:15px;
+}
+.hnewstt2 .title {
+	margin:0px auto;
+	width:320px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:48px;
+	font-weight: bold;
+	}
+.hnewstt2 .title a {
+	color:#000;
+}
+.hnewstt2 .title a:hover {
+	color:#000;
+	text-decoration:none;
+}
+.hnewstt2 .biaoyu {
+	font-family:"\5FAE\8F6F\96C5\9ED1", \9ED1\4F53;
+	font-size:18px;
+	color:#a1a1a1;
+}
 /*图片新闻标题end*/
 /*图片新闻列表start*/
 .hnews {
@@ -1462,35 +1494,20 @@ del {
 @media screen and (min-width:1600px){
 .jjfadatu {
 	background:url(/skin/images/top_bg2.png) repeat;
-	height:300px;
-	margin-top:-31px;
+	height:230px;
+
 }
 .jjfadatu .tu {
 	width:1920px;
-	height:300px;
-	margin:0px auto;
+	height:230px;
+	
 }
 .jjfadatu .tu img {
     width:1920px;
-	height:300px;
+	height:230px;
 }
 }
-@media screen and (max-width:1599px){
-.jjfadatu {
-	background:url(/skin/images/top_bg2.png) repeat;
-	height:155px;
-	margin-top:-31px;
-}
-.jjfadatu .tu {
-	width:980px;
-	height:155px;
-	margin:0px auto;
-}
-.jjfadatu .tu img {
-    width:980px;
-	height:155px;
-}
-}
+
 /*解决方案顶部大图结束*/
 
 /*解决方案列表start*/
@@ -1616,12 +1633,13 @@ del {
 }
 .anlipd .dh ul li a {
 	font-family:"\5FAE\8F6F\96C5\9ED1", \9ED1\4F53;
+	color:#000;
 	font-size:18px;
 	display:block;
 	padding-right:5px;
 }
 .anlipd .dh ul li a hover {
-	border:1px dotted #cc0000;
+	
 }
 .anlipd .list {
 	width:730px;
@@ -1677,6 +1695,99 @@ del {
 	font-size:14px;
 }
 .anlipd .list a:hover {
+	color:#cc0000;
+	text-decoration:none;
+}
+
+
+
+
+.anlipd2 {
+    width:980px;
+	margin:90px auto;
+	background:#FFF;
+	
+}
+.anlipd2 .dh {
+	width:250px;
+	margin-left:65px;
+
+}
+.anlipd2 .dh ul {
+	width:105px;
+}
+.anlipd2 .dh ul li {
+	width:105px;
+	height:53px;
+	text-align:right;
+	line-height:60px;
+	border-bottom:1px solid #ccc;
+	background:url(../images/artilist.png) no-repeat;
+}
+.anlipd2 .dh ul li a {
+	font-family:"\5FAE\8F6F\96C5\9ED1", \9ED1\4F53;
+	color:#000;
+	font-size:18px;
+	display:block;
+	padding-right:5px;
+}
+.anlipd2 .dh ul li a hover {
+	
+}
+.anlipd2 .list {
+	width:730px;
+	margin-left:80px;
+	float:right;
+	margin-top:-270px;
+	text-align:left;
+}
+
+.anlipd2 .list ul {
+    width:730px;
+    margin:0 auto;
+}
+.anlipd2 .list ul li {
+    float:left;
+	text-align:left;
+	width:320px;
+	height:260px;
+	overflow:hidden;
+	background:#fff;
+	margin:10px 30px 10px 0px;
+
+}
+.anlipd2 .list ul li:hover {
+	background:#f2f2f2;
+}
+.anlipd2 .list ul li .shuxing {
+	float:right;
+	width:100px;
+	text-align:left;
+	padding-left:15px;
+}
+.anlipd2 .list ul li img {
+	width:305px;
+	height:229px;
+	margin-bottom:1px;
+	border:#FF0000 1px solid;
+	-webkit-transition:0.5s ease-out;
+	-moz-transition:0.5s ease-out;
+	-o-transition:0.5s ease-out;
+	-ms-transition:0.5s ease-out;
+	transition:0.5s ease-out;
+}
+.anlipd2 .list ul li img:hover {
+	-webkit-transform: scale(1.1);    /* safari and chrome */
+	-moz-transform: scale(1.1);       /* firefox */
+	-o-transform: scale(1.1);         /* opera */
+	-ms-transform: scale(1.1);        /* ie9 */
+	transform: scale(1.1);
+}
+.anlipd2 .list a {
+	font-family:"\5FAE\8F6F\96C5\9ED1", \9ED1\4F53;
+	font-size:14px;
+}
+.anlipd2 .list a:hover {
 	color:#cc0000;
 	text-decoration:none;
 }
@@ -2155,12 +2266,13 @@ _top:expression(eval(document.documentElement.scrollTop+document.documentElement
 }
 #lmleft .dh ul li a {
 	font-family:"\5FAE\8F6F\96C5\9ED1", \9ED1\4F53;
-	font-size:18px;
+	color:#000;
+	font-size:14px;
 	display:block;
 	padding-right:5px;
 }
-#lmleft .dh ul li a hover {
-	border:1px dotted #cc0000;
+#lmleft .dh ul li a:hover {
+	text-decoration:none
 }
 #lmleft .dh ul li.curr {
 	width:120px;
@@ -2182,7 +2294,7 @@ _top:expression(eval(document.documentElement.scrollTop+document.documentElement
 }
 #lmright .box {
 	width:680px;
-	margin:30px auto;
+	margin:0px auto;
 }
 #lmright #fenye a.curr {
 	background:#a00;
@@ -2191,7 +2303,7 @@ _top:expression(eval(document.documentElement.scrollTop+document.documentElement
 #lmright .box .box01 {
 }
 #lmright .box .box02 {
-	margin-top:230px;
+	
 }
 
 #lmright .box .box02 h1 span {
@@ -2244,9 +2356,22 @@ _top:expression(eval(document.documentElement.scrollTop+document.documentElement
 
 }
 #lmright .box .box02 ul li {
-	height:45px;
+	height:30px;
+	
 	border-bottom:1px dashed #ddd;
+	padding-top:10px;
 }
+#lmright .box .box02 ul li a{
+	height:30px;
+	text-align:left;
+	color:#000;
+}
+#lmright .box .box02 ul li span{
+	height:30px;
+
+	padding-left:460px;
+}
+
 #lmright .box .box02 ul li:hover {
 	background:#fafafa;
 }
@@ -2372,12 +2497,14 @@ _top:expression(eval(document.documentElement.scrollTop+document.documentElement
 }
 #nrright .dh ul li a {
 	font-family:"\5FAE\8F6F\96C5\9ED1", \9ED1\4F53;
+	color:#000;
 	font-size:14px;
 	display:block;
 	padding-right:5px;
 }
-#nrright .dh ul li a hover {
-	border:1px dotted #cc0000;
+#nrright .dh ul li a:hover {
+	color:#000;
+	text-decoration:none;
 }
 #nrright .dh ul li.curr {
 	width:120px;
@@ -2391,6 +2518,7 @@ _top:expression(eval(document.documentElement.scrollTop+document.documentElement
 }
 #nrright .dh ul li.curr a:hover {
 	color:#cc0000;
+	text-decoration:none;
 }
 
 #nrright .dh2 {
