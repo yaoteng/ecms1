@@ -1705,7 +1705,7 @@ del {
 
 .anlipd2 {
     width:980px;
-	margin:90px auto;
+	margin:0px auto;
 	background:#FFF;
 	
 }
@@ -1719,27 +1719,27 @@ del {
 }
 .anlipd2 .dh ul li {
 	width:105px;
-	height:53px;
+	height:33px;
 	text-align:right;
-	line-height:60px;
+	line-height:33px;
 	border-bottom:1px solid #ccc;
 	background:url(../images/artilist.png) no-repeat;
 }
 .anlipd2 .dh ul li a {
 	font-family:"\5FAE\8F6F\96C5\9ED1", \9ED1\4F53;
 	color:#000;
-	font-size:18px;
+	font-size:14px;
 	display:block;
 	padding-right:5px;
 }
-.anlipd2 .dh ul li a hover {
-	
+.anlipd2 .dh ul li a:hover {
+	text-decoration:none
 }
 .anlipd2 .list {
 	width:730px;
 	margin-left:80px;
 	float:right;
-	margin-top:-270px;
+	margin-top:-100px;
 	text-align:left;
 }
 
@@ -2411,6 +2411,11 @@ _top:expression(eval(document.documentElement.scrollTop+document.documentElement
     width:700px;
 	margin:85px auto;
 }
+
+#nrleft .aboutus2 {
+    width:700px;
+	margin:40px auto;
+}
 #nrleft .box h1 {
 	font-size:24px;
 	text-align:center;
@@ -2526,7 +2531,7 @@ _top:expression(eval(document.documentElement.scrollTop+document.documentElement
     float:left;
 	width:105px;
 	margin-left:65px;
-	margin-top:70px;
+	margin-top:50px;
 }
 #nrright .dh2 ul {
 	width:105px;
@@ -2541,12 +2546,13 @@ _top:expression(eval(document.documentElement.scrollTop+document.documentElement
 }
 #nrright .dh2 ul li a {
 	font-family:"\5FAE\8F6F\96C5\9ED1", \9ED1\4F53;
+	color:#000;
 	font-size:14px;
 	display:block;
 	padding-right:5px;
 }
-#nrright .dh2 ul li a hover {
-	border:1px dotted #cc0000;
+#nrright .dh2 ul li a:hover {
+	text-decoration:none
 }
 #nrright .dh2 ul li.curr {
 	width:120px;
